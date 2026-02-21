@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pripo Elite Recruitment</title>
+  <meta name="description" content="Pripo Elite Recruitment connects top talent with exceptional organizations through a modern, human-first recruitment process." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a href="#" class="brand" aria-label="Pripo Elite home">
+        <span class="brand-mark" aria-hidden="true">P</span>
+        <span class="brand-text">Pripo Elite</span>
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Choose Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-sm">Talk to a Consultant</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-layout">
+        <div>
+          <p class="eyebrow">Elite Talent Solutions</p>
+          <h1>Building exceptional teams for ambitious companies.</h1>
+          <p class="lead">
+            We partner with employers to find, assess, and place high-impact professionals across critical business functions.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn">Start Hiring</a>
+            <a href="#services" class="btn btn-ghost">Explore Services</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Recruitment metrics">
+          <h2>At a glance</h2>
+          <ul>
+            <li>
+              <strong>92%</strong>
+              Candidate retention after 12 months
+            </li>
+            <li>
+              <strong>18 days</strong>
+              Average shortlist delivery
+            </li>
+            <li>
+              <strong>24/7</strong>
+              Dedicated consultant communication
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section section-muted">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Recruitment with precision, speed, and care.</h2>
+        </div>
+        <p>
+          Pripo Elite is a modern recruitment company focused on long-term talent outcomes. We combine market intelligence,
+          structured evaluation, and personal guidance to connect growing organizations with professionals who truly fit their mission.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <p class="eyebrow">Services</p>
+        <h2>Flexible hiring services for every growth stage.</h2>
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Permanent Placement</h3>
+            <p>Source and place high-quality full-time candidates for strategic and operational roles.</p>
+          </article>
+          <article class="card">
+            <h3>Executive Search</h3>
+            <p>Targeted headhunting for leadership appointments and business-critical hires.</p>
+          </article>
+          <article class="card">
+            <h3>Workforce Advisory</h3>
+            <p>Data-backed guidance on hiring strategy, compensation benchmarks, and process design.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="section section-muted">
+      <div class="container">
+        <p class="eyebrow">Why Choose Us</p>
+        <h2>A corporate-standard partner with lightweight execution.</h2>
+        <div class="grid cards-3">
+          <article class="card card-feature">
+            <h3>Industry Specialists</h3>
+            <p>Consultants with deep vertical expertise deliver targeted shortlists, not generic CV stacks.</p>
+          </article>
+          <article class="card card-feature">
+            <h3>Transparent Process</h3>
+            <p>Clear milestones, rapid feedback loops, and regular reporting from briefing to signed offer.</p>
+          </article>
+          <article class="card card-feature">
+            <h3>Scalable Foundation</h3>
+            <p>This website architecture is ready to expand with job listings, candidate portals, and secure login flows.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-shell">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s discuss your hiring goals.</h2>
+          <p>Tell us what you need, and one of our consultants will contact you within one business day.</p>
+        </div>
+
+        <form class="contact-form" novalidate>
+          <label>
+            Full Name
+            <input type="text" name="name" required placeholder="Jane Smith" />
+          </label>
+          <label>
+            Company Email
+            <input type="email" name="email" required placeholder="jane@company.com" />
+          </label>
+          <label>
+            Hiring Needs
+            <textarea name="message" rows="4" required placeholder="We are hiring 3 senior engineers in Q3."></textarea>
+          </label>
+          <button type="submit" class="btn">Send Request</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <p>© <span id="year"></span> Pripo Elite Recruitment</p>
+      <a href="#" aria-label="Back to top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
