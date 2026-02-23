@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Pripo Elite Recruitment",
+    "description": "Pripo Elite Recruitment connects top talent with exceptional organizations through a modern, human-first recruitment process."
+  },
+  "brand": {
+    "name": "Pripo Elite",
+    "homeAria": "Pripo Elite home"
+  },
+  "nav": {
+    "primaryAria": "Primary navigation",
+    "about": "About",
+    "services": "Services",
+    "whyUs": "Why Choose Us",
+    "contact": "Contact",
+    "consultant": "Talk to a Consultant",
+    "languageLabel": "Language",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Elite Talent Solutions",
+    "title": "Building exceptional teams for ambitious companies.",
+    "lead": "We partner with employers to find, assess, and place high-impact professionals across critical business functions.",
+    "startHiring": "Start Hiring",
+    "explore": "Explore Services",
+    "metricsAria": "Recruitment metrics",
+    "glanceTitle": "At a glance",
+    "metricRetention": "Candidate retention after 12 months",
+    "metricShortlist": "Average shortlist delivery",
+    "metricCommunication": "Dedicated consultant communication"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Recruitment with precision, speed, and care.",
+    "body": "Pripo Elite is a modern recruitment company focused on long-term talent outcomes. We combine market intelligence, structured evaluation, and personal guidance to connect growing organizations with professionals who truly fit their mission."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Flexible hiring services for every growth stage.",
+    "permanentTitle": "Permanent Placement",
+    "permanentBody": "Source and place high-quality full-time candidates for strategic and operational roles.",
+    "executiveTitle": "Executive Search",
+    "executiveBody": "Targeted headhunting for leadership appointments and business-critical hires.",
+    "advisoryTitle": "Workforce Advisory",
+    "advisoryBody": "Data-backed guidance on hiring strategy, compensation benchmarks, and process design."
+  },
+  "why": {
+    "eyebrow": "Why Choose Us",
+    "title": "A corporate-standard partner with lightweight execution.",
+    "specialistsTitle": "Industry Specialists",
+    "specialistsBody": "Consultants with deep vertical expertise deliver targeted shortlists, not generic CV stacks.",
+    "processTitle": "Transparent Process",
+    "processBody": "Clear milestones, rapid feedback loops, and regular reporting from briefing to signed offer.",
+    "scalableTitle": "Scalable Foundation",
+    "scalableBody": "This website architecture is ready to expand with job listings, candidate portals, and secure login flows."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s discuss your hiring goals.",
+    "body": "Tell us what you need, and one of our consultants will contact you within one business day."
+  },
+  "form": {
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Jane Smith",
+    "emailLabel": "Company Email",
+    "emailPlaceholder": "jane@company.com",
+    "needsLabel": "Hiring Needs",
+    "needsPlaceholder": "We are hiring 3 senior engineers in Q3.",
+    "submit": "Send Request",
+    "requiredError": "Please complete all required fields.",
+    "success": "Thank you. Your request has been received."
+  },
+  "footer": {
+    "copyrightPrefix": "©",
+    "company": "Pripo Elite Recruitment",
+    "backToTop": "Back to top ↑"
+  }
+}

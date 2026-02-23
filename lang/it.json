@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Pripo Elite Recruitment",
+    "description": "Pripo Elite Recruitment collega i migliori talenti con organizzazioni eccellenti attraverso un processo di selezione moderno e orientato alle persone."
+  },
+  "brand": {
+    "name": "Pripo Elite",
+    "homeAria": "Home Pripo Elite"
+  },
+  "nav": {
+    "primaryAria": "Navigazione principale",
+    "about": "Chi siamo",
+    "services": "Servizi",
+    "whyUs": "Perché sceglierci",
+    "contact": "Contatti",
+    "consultant": "Parla con un consulente",
+    "languageLabel": "Lingua",
+    "menuOpen": "Apri menu",
+    "menuClose": "Chiudi menu"
+  },
+  "hero": {
+    "eyebrow": "Soluzioni per talenti d'élite",
+    "title": "Creiamo team eccezionali per aziende ambiziose.",
+    "lead": "Collaboriamo con le aziende per trovare, valutare e inserire professionisti ad alto impatto nelle funzioni aziendali critiche.",
+    "startHiring": "Inizia ad assumere",
+    "explore": "Esplora i servizi",
+    "metricsAria": "Metriche di recruiting",
+    "glanceTitle": "In sintesi",
+    "metricRetention": "Retention dei candidati dopo 12 mesi",
+    "metricShortlist": "Tempo medio di consegna short list",
+    "metricCommunication": "Comunicazione dedicata con consulente"
+  },
+  "about": {
+    "eyebrow": "Chi siamo",
+    "title": "Recruiting con precisione, velocità e attenzione.",
+    "body": "Pripo Elite è una società di recruiting moderna focalizzata su risultati di talento a lungo termine. Combiniamo intelligence di mercato, valutazione strutturata e guida personale per connettere organizzazioni in crescita con professionisti davvero in linea con la loro missione."
+  },
+  "services": {
+    "eyebrow": "Servizi",
+    "title": "Servizi di assunzione flessibili per ogni fase di crescita.",
+    "permanentTitle": "Inserimento a tempo indeterminato",
+    "permanentBody": "Ricerca e inserimento di candidati full-time di alta qualità per ruoli strategici e operativi.",
+    "executiveTitle": "Executive Search",
+    "executiveBody": "Headhunting mirato per nomine dirigenziali e assunzioni business-critical.",
+    "advisoryTitle": "Consulenza workforce",
+    "advisoryBody": "Consulenza supportata dai dati su strategia di assunzione, benchmark retributivi e progettazione dei processi."
+  },
+  "why": {
+    "eyebrow": "Perché sceglierci",
+    "title": "Un partner di livello corporate con un'esecuzione agile.",
+    "specialistsTitle": "Specialisti di settore",
+    "specialistsBody": "Consulenti con profonda competenza verticale offrono short list mirate, non pile di CV generici.",
+    "processTitle": "Processo trasparente",
+    "processBody": "Milestone chiare, feedback rapidi e report regolari dal briefing all'offerta firmata.",
+    "scalableTitle": "Base scalabile",
+    "scalableBody": "L'architettura di questo sito è pronta a espandersi con job listing, portali candidati e flussi di login sicuri."
+  },
+  "contact": {
+    "eyebrow": "Contatti",
+    "title": "Parliamo dei tuoi obiettivi di assunzione.",
+    "body": "Raccontaci di cosa hai bisogno e uno dei nostri consulenti ti contatterà entro un giorno lavorativo."
+  },
+  "form": {
+    "fullNameLabel": "Nome completo",
+    "fullNamePlaceholder": "Giulia Rossi",
+    "emailLabel": "Email aziendale",
+    "emailPlaceholder": "giulia@azienda.com",
+    "needsLabel": "Esigenze di assunzione",
+    "needsPlaceholder": "Stiamo assumendo 3 ingegneri senior nel Q3.",
+    "submit": "Invia richiesta",
+    "requiredError": "Compila tutti i campi obbligatori.",
+    "success": "Grazie. La tua richiesta è stata ricevuta."
+  },
+  "footer": {
+    "copyrightPrefix": "©",
+    "company": "Pripo Elite Recruitment",
+    "backToTop": "Torna su ↑"
+  }
+}
