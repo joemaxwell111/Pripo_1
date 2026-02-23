@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "Pripo Elite Recruitment",
+    "description": "Pripo Elite Recruitment verbindet Top-Talente mit herausragenden Unternehmen durch einen modernen, menschenzentrierten Recruiting-Prozess."
+  },
+  "brand": {
+    "name": "Pripo Elite",
+    "homeAria": "Pripo Elite Startseite"
+  },
+  "nav": {
+    "primaryAria": "Hauptnavigation",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "whyUs": "Warum wir",
+    "contact": "Kontakt",
+    "consultant": "Mit einem Berater sprechen",
+    "languageLabel": "Sprache",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen"
+  },
+  "hero": {
+    "eyebrow": "Elite-Talentlösungen",
+    "title": "Wir bauen außergewöhnliche Teams für ambitionierte Unternehmen.",
+    "lead": "Wir unterstützen Arbeitgeber dabei, leistungsstarke Fachkräfte für geschäftskritische Funktionen zu finden, zu bewerten und einzustellen.",
+    "startHiring": "Jetzt einstellen",
+    "explore": "Leistungen entdecken",
+    "metricsAria": "Recruiting-Kennzahlen",
+    "glanceTitle": "Auf einen Blick",
+    "metricRetention": "Kandidatenbindung nach 12 Monaten",
+    "metricShortlist": "Durchschnittliche Zeit bis zur Shortlist",
+    "metricCommunication": "Dedizierte Beraterkommunikation"
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Recruiting mit Präzision, Tempo und Sorgfalt.",
+    "body": "Pripo Elite ist ein modernes Recruiting-Unternehmen mit Fokus auf langfristige Talent-Ergebnisse. Wir kombinieren Marktintelligenz, strukturierte Bewertung und persönliche Begleitung, um wachsende Organisationen mit Fachkräften zu verbinden, die wirklich zu ihrer Mission passen."
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "title": "Flexible Recruiting-Services für jede Wachstumsphase.",
+    "permanentTitle": "Festanstellung",
+    "permanentBody": "Suche und Vermittlung hochwertiger Vollzeitkandidaten für strategische und operative Rollen.",
+    "executiveTitle": "Executive Search",
+    "executiveBody": "Gezieltes Headhunting für Führungspositionen und geschäftskritische Einstellungen.",
+    "advisoryTitle": "Workforce-Beratung",
+    "advisoryBody": "Datenbasierte Beratung zu Hiring-Strategie, Gehaltsbenchmarks und Prozessdesign."
+  },
+  "why": {
+    "eyebrow": "Warum wir",
+    "title": "Ein Partner auf Corporate-Niveau mit schlanker Umsetzung.",
+    "specialistsTitle": "Branchenexperten",
+    "specialistsBody": "Berater mit tiefgreifender vertikaler Expertise liefern gezielte Shortlists statt generischer CV-Stapel.",
+    "processTitle": "Transparenter Prozess",
+    "processBody": "Klare Meilensteine, schnelle Feedbackschleifen und regelmäßige Reports vom Briefing bis zum unterschriebenen Angebot.",
+    "scalableTitle": "Skalierbares Fundament",
+    "scalableBody": "Diese Website-Architektur ist bereit für Erweiterungen wie Joblisten, Kandidatenportale und sichere Login-Flows."
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Lassen Sie uns über Ihre Einstellungsziele sprechen.",
+    "body": "Sagen Sie uns, was Sie benötigen, und einer unserer Berater meldet sich innerhalb eines Werktages bei Ihnen."
+  },
+  "form": {
+    "fullNameLabel": "Vollständiger Name",
+    "fullNamePlaceholder": "Julia Schmidt",
+    "emailLabel": "Unternehmens-E-Mail",
+    "emailPlaceholder": "julia@firma.de",
+    "needsLabel": "Personalbedarf",
+    "needsPlaceholder": "Wir stellen im Q3 drei Senior Engineers ein.",
+    "submit": "Anfrage senden",
+    "requiredError": "Bitte füllen Sie alle Pflichtfelder aus.",
+    "success": "Vielen Dank. Ihre Anfrage wurde erhalten."
+  },
+  "footer": {
+    "copyrightPrefix": "©",
+    "company": "Pripo Elite Recruitment",
+    "backToTop": "Nach oben ↑"
+  }
+}

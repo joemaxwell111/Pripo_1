@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pripo Elite Recruitment</title>
-  <meta name="description" content="Pripo Elite Recruitment connects top talent with exceptional organizations through a modern, human-first recruitment process." />
+  <title data-i18n-title="meta.title">Pripo Elite Recruitment</title>
+  <meta name="description" data-i18n-meta-description="meta.description" content="Pripo Elite Recruitment connects top talent with exceptional organizations through a modern, human-first recruitment process." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -13,22 +13,30 @@
 <body>
   <header class="site-header">
     <div class="container nav-shell">
-      <a href="#" class="brand" aria-label="Pripo Elite home">
+      <a href="#" class="brand" data-i18n-aria-label="brand.homeAria" aria-label="Pripo Elite home">
         <span class="brand-mark" aria-hidden="true">P</span>
-        <span class="brand-text">Pripo Elite</span>
+        <span class="brand-text" data-i18n="brand.name">Pripo Elite</span>
       </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" data-i18n-open-label="nav.menuOpen" data-i18n-close-label="nav.menuClose" aria-label="Open menu">
         <span></span>
         <span></span>
       </button>
 
-      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#why-us">Why Choose Us</a>
-        <a href="#contact">Contact</a>
-        <a href="#contact" class="btn btn-sm">Talk to a Consultant</a>
+      <nav id="primary-nav" class="primary-nav" data-i18n-aria-label="nav.primaryAria" aria-label="Primary navigation">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#why-us" data-i18n="nav.whyUs">Why Choose Us</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a href="#contact" class="btn btn-sm" data-i18n="nav.consultant">Talk to a Consultant</a>
+        <label class="language-select" for="language-switcher">
+          <span data-i18n="nav.languageLabel">Language</span>
+          <select id="language-switcher" aria-label="Select language">
+            <option value="en">English</option>
+            <option value="it">Italiano</option>
+            <option value="de">Deutsch</option>
+          </select>
+        </label>
       </nav>
     </div>
   </header>
@@ -37,31 +45,31 @@
     <section class="hero section">
       <div class="container hero-layout">
         <div>
-          <p class="eyebrow">Elite Talent Solutions</p>
-          <h1>Building exceptional teams for ambitious companies.</h1>
-          <p class="lead">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Elite Talent Solutions</p>
+          <h1 data-i18n="hero.title">Building exceptional teams for ambitious companies.</h1>
+          <p class="lead" data-i18n="hero.lead">
             We partner with employers to find, assess, and place high-impact professionals across critical business functions.
           </p>
           <div class="hero-actions">
-            <a href="#contact" class="btn">Start Hiring</a>
-            <a href="#services" class="btn btn-ghost">Explore Services</a>
+            <a href="#contact" class="btn" data-i18n="hero.startHiring">Start Hiring</a>
+            <a href="#services" class="btn btn-ghost" data-i18n="hero.explore">Explore Services</a>
           </div>
         </div>
 
-        <aside class="hero-card" aria-label="Recruitment metrics">
-          <h2>At a glance</h2>
+        <aside class="hero-card" data-i18n-aria-label="hero.metricsAria" aria-label="Recruitment metrics">
+          <h2 data-i18n="hero.glanceTitle">At a glance</h2>
           <ul>
             <li>
               <strong>92%</strong>
-              Candidate retention after 12 months
+              <span data-i18n="hero.metricRetention">Candidate retention after 12 months</span>
             </li>
             <li>
               <strong>18 days</strong>
-              Average shortlist delivery
+              <span data-i18n="hero.metricShortlist">Average shortlist delivery</span>
             </li>
             <li>
               <strong>24/7</strong>
-              Dedicated consultant communication
+              <span data-i18n="hero.metricCommunication">Dedicated consultant communication</span>
             </li>
           </ul>
         </aside>
@@ -71,10 +79,10 @@
     <section id="about" class="section section-muted">
       <div class="container two-col">
         <div>
-          <p class="eyebrow">About</p>
-          <h2>Recruitment with precision, speed, and care.</h2>
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 data-i18n="about.title">Recruitment with precision, speed, and care.</h2>
         </div>
-        <p>
+        <p data-i18n="about.body">
           Pripo Elite is a modern recruitment company focused on long-term talent outcomes. We combine market intelligence,
           structured evaluation, and personal guidance to connect growing organizations with professionals who truly fit their mission.
         </p>
@@ -83,20 +91,20 @@
 
     <section id="services" class="section">
       <div class="container">
-        <p class="eyebrow">Services</p>
-        <h2>Flexible hiring services for every growth stage.</h2>
+        <p class="eyebrow" data-i18n="services.eyebrow">Services</p>
+        <h2 data-i18n="services.title">Flexible hiring services for every growth stage.</h2>
         <div class="grid cards-3">
           <article class="card">
-            <h3>Permanent Placement</h3>
-            <p>Source and place high-quality full-time candidates for strategic and operational roles.</p>
+            <h3 data-i18n="services.permanentTitle">Permanent Placement</h3>
+            <p data-i18n="services.permanentBody">Source and place high-quality full-time candidates for strategic and operational roles.</p>
           </article>
           <article class="card">
-            <h3>Executive Search</h3>
-            <p>Targeted headhunting for leadership appointments and business-critical hires.</p>
+            <h3 data-i18n="services.executiveTitle">Executive Search</h3>
+            <p data-i18n="services.executiveBody">Targeted headhunting for leadership appointments and business-critical hires.</p>
           </article>
           <article class="card">
-            <h3>Workforce Advisory</h3>
-            <p>Data-backed guidance on hiring strategy, compensation benchmarks, and process design.</p>
+            <h3 data-i18n="services.advisoryTitle">Workforce Advisory</h3>
+            <p data-i18n="services.advisoryBody">Data-backed guidance on hiring strategy, compensation benchmarks, and process design.</p>
           </article>
         </div>
       </div>
@@ -104,20 +112,20 @@
 
     <section id="why-us" class="section section-muted">
       <div class="container">
-        <p class="eyebrow">Why Choose Us</p>
-        <h2>A corporate-standard partner with lightweight execution.</h2>
+        <p class="eyebrow" data-i18n="why.eyebrow">Why Choose Us</p>
+        <h2 data-i18n="why.title">A corporate-standard partner with lightweight execution.</h2>
         <div class="grid cards-3">
           <article class="card card-feature">
-            <h3>Industry Specialists</h3>
-            <p>Consultants with deep vertical expertise deliver targeted shortlists, not generic CV stacks.</p>
+            <h3 data-i18n="why.specialistsTitle">Industry Specialists</h3>
+            <p data-i18n="why.specialistsBody">Consultants with deep vertical expertise deliver targeted shortlists, not generic CV stacks.</p>
           </article>
           <article class="card card-feature">
-            <h3>Transparent Process</h3>
-            <p>Clear milestones, rapid feedback loops, and regular reporting from briefing to signed offer.</p>
+            <h3 data-i18n="why.processTitle">Transparent Process</h3>
+            <p data-i18n="why.processBody">Clear milestones, rapid feedback loops, and regular reporting from briefing to signed offer.</p>
           </article>
           <article class="card card-feature">
-            <h3>Scalable Foundation</h3>
-            <p>This website architecture is ready to expand with job listings, candidate portals, and secure login flows.</p>
+            <h3 data-i18n="why.scalableTitle">Scalable Foundation</h3>
+            <p data-i18n="why.scalableBody">This website architecture is ready to expand with job listings, candidate portals, and secure login flows.</p>
           </article>
         </div>
       </div>
@@ -126,25 +134,25 @@
     <section id="contact" class="section">
       <div class="container contact-shell">
         <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Let’s discuss your hiring goals.</h2>
-          <p>Tell us what you need, and one of our consultants will contact you within one business day.</p>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">Let’s discuss your hiring goals.</h2>
+          <p data-i18n="contact.body">Tell us what you need, and one of our consultants will contact you within one business day.</p>
         </div>
 
         <form class="contact-form" novalidate>
           <label>
-            Full Name
-            <input type="text" name="name" required placeholder="Jane Smith" />
+            <span data-i18n="form.fullNameLabel">Full Name</span>
+            <input type="text" name="name" required data-i18n-placeholder="form.fullNamePlaceholder" placeholder="Jane Smith" />
           </label>
           <label>
-            Company Email
-            <input type="email" name="email" required placeholder="jane@company.com" />
+            <span data-i18n="form.emailLabel">Company Email</span>
+            <input type="email" name="email" required data-i18n-placeholder="form.emailPlaceholder" placeholder="jane@company.com" />
           </label>
           <label>
-            Hiring Needs
-            <textarea name="message" rows="4" required placeholder="We are hiring 3 senior engineers in Q3."></textarea>
+            <span data-i18n="form.needsLabel">Hiring Needs</span>
+            <textarea name="message" rows="4" required data-i18n-placeholder="form.needsPlaceholder" placeholder="We are hiring 3 senior engineers in Q3."></textarea>
           </label>
-          <button type="submit" class="btn">Send Request</button>
+          <button type="submit" class="btn" data-i18n="form.submit">Send Request</button>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -153,8 +161,8 @@
 
   <footer class="site-footer">
     <div class="container footer-shell">
-      <p>© <span id="year"></span> Pripo Elite Recruitment</p>
-      <a href="#" aria-label="Back to top">Back to top ↑</a>
+      <p><span data-i18n="footer.copyrightPrefix">©</span> <span id="year"></span> <span data-i18n="footer.company">Pripo Elite Recruitment</span></p>
+      <a href="#" data-i18n-aria-label="footer.backToTop" data-i18n="footer.backToTop">Back to top ↑</a>
     </div>
   </footer>
 
